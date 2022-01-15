@@ -1,8 +1,8 @@
 -- Pepsi Was Here
 -- Pepsi's Name Spoofer
 -- Settings
-local new_name = "Fuck" -- I'm not Pepsi. ^_^
-local new_id = 104867 -- I'm not 26346. ^_^
+local new_name = "Bob" -- I'm not Pepsi. ^_^
+local new_id = 367 -- I'm not 26346. ^_^
 local clear_avatar = true -- So no one can reverse search by your outfit
 local flush_body_colors = true -- So no one can reverse search by your bodycolors
 local rename_instances = false -- Rename any instances that holds your name. (Not recomended unless you can see your name above your character)
