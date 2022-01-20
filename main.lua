@@ -1,15 +1,15 @@
 -- Pepsi Was Here
 -- Pepsi's Name Spoofer
 -- Settings
-local new_name = "Bob" -- I'm not Pepsi. ^_^
-local new_id = 367 -- I'm not 26346. ^_^
-local clear_avatar = true -- So no one can reverse search by your outfit
-local flush_body_colors = true -- So no one can reverse search by your bodycolors
-local rename_instances = false -- Rename any instances that holds your name. (Not recomended unless you can see your name above your character)
-local change_id = false -- Change your player ID (not visually)
+local new_name = "BuildIntoGames" -- I'm not Pepsi. ^_^
+local new_id = 19717956 -- I'm not 26346. ^_^
+local clear_avatar = false -- So no one can reverse search by your outfit
+local flush_body_colors = false -- So no one can reverse search by your bodycolors
+local rename_instances = true -- Rename any instances that holds your name. (Not recomended unless you can see your name above your character)
+local change_id = true -- Change your player ID (not visually)
 local deep_scan = true -- Can get a bit laggy if there is a mass wave of new instances
 local filter_httpget = { -- Didn't seem like this would be helpful, but requested.
-    enabled = false, -- Turn on
+    enabled = true, -- Turn on
     result = true, -- Filter the results of the request
     request = true -- Filter the url before requesting
 }
